@@ -1,18 +1,153 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Pila | Personal Page</title>
 
-# Other files and folders
-.settings/
+  <style>
+    body {
+      background: #e0dfe3aa;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+    html {
+      scroll-behavior: smooth;
+    }
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+    h2 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    header {
+      color: blue;
+      background: black;
+      padding: 10px;
+      text-align: center;
+      font-family: "Times New Roman", serif;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 0;
+    }
+
+    li {
+      background: silver;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+    li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    li:hover {
+      background: black;
+    }
+
+    li:hover a {
+      color: white;
+    }
+
+    .document {
+      background: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 15px;
+      font-family: "Times New Roman", serif;
+    }
+
+    .about_me {
+      background: black;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      width: 200px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: gray;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+  <h1>MY PERSONAL WEBSITE</h1>
+</header>
+
+<!-- Navigation -->
+<section>
+  <ul>
+    <li><a href="#biodata">Biodata</a></li>
+    <li><a href="#school">School</a></li>
+    <li><a href="#me">Me</a></li>
+  </ul>
+</section>
+
+<!-- Biodata -->
+<section class="document" id="biodata">
+  <h2>Biodata</h2>
+  <p><b>Name:</b> Pila Mark Terungwa.</p>
+  <p><b>DOB:</b> 24 May, 2008.</p>
+  <p><b>State of Origin:</b> Benue State.</p>
+  <p><b>Matric Number:</b> 2025/1/102648SW</p>
+  <p><b>Email:</b> pilamark1@gmail.com</p>
+  <p><b>Phone Number:</b> 07086461120</p>
+</section>
+
+<!-- School -->
+<section class="about_me" id="school">
+  <h2>Schools Attended</h2>
+  <p><b>Primary School:</b> Fasells Nursery and Primary School, Makurdi, Benue State - 2019</p>
+  <p><b>Secondary School:</b> F.T Dynasty International College, Makurdi, Benue State - 2025</p>
+  <p><b>Institution:</b> Federal University of Technology, Minna</p>
+  <p><b>Course:</b> Software Engineering</p>
+</section>
+
+<!-- Me -->
+<section class="about_me" id="me">
+  <h2>My Picture</h2>
+  <img src="cii.png" alt="My Photo">
+</section>
+
+<footer>
+  <p>© 2026 Mark Pila</p>
+</footer>
+
+</div>
+
+</body>
+</html>
